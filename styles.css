@@ -1,0 +1,58 @@
+p {
+  margin: 0px;
+}
+
+h1 {
+  text-decoration: none;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+}
+
+.food-item-container {
+  /* This contains everything associated with the food. */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  border: 1px dashed orange;
+  /* The plan here is to split this menu into two columns. */
+}
+
+.food-item {
+  /* This adjusts the image's position in relation to the text. */
+  display: flex;
+  margin: 20px 20px;
+}
+
+.image-food {
+  /* Any image of a food item use this class. */
+  /* This class takes in factors such as size, borders. */
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 0px 20px;
+}
+
+.food-text {
+  /* This adjusts the description's text. */
+  width: 260px;
+  font-family: Georgia;
+}
+
+.food-title {
+  /* This displays the item's name and price. */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}

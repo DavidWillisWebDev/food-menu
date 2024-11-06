@@ -1,0 +1,46 @@
+Generic Diner (work in progress)
+This is a Diner
+
+
+Breakfast
+----------
+Omelette
+Toast and Eggs (includes bacon and hash browns)
+Pancakes (blueberry)
+Waffles
+Sausage Biscuit Sandwich
+French Toast
+
+
+Lunch/Dinner
+----------
+Burger and Fries
+Sandwich (ham, chicken, turkey)
+Steak
+Chicken and Waffles
+Chicken-Fried Steak
+
+
+Dessert
+----------
+Banana Split
+Banana Sundae
+
+
+
+Drinks
+-------
+Water
+Lemonade
+Coca-Cola
+Pepsi
+Sprite
+7-Up
+
+
+
+Milkshakes
+----------
+Vanilla Milkshake
+Chocolate Milkshake
+Strawberry Milkshake

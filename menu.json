@@ -1,0 +1,96 @@
+{
+    "data": [
+       {
+            "name": "Water",
+            "description": "Made with two hydrogen molecules and one oxygen molecule.",
+            "price": 1.75,
+            "img": "images/water.png",
+            "category": "Drinks"
+       },
+       {
+            "name": "Lemonade",
+            "description": "Made with lemons and sugar. Not to be confused with lemon juice.",
+            "price": 3.99,
+            "img": "images/lemonade.png",
+            "category": "Drinks"
+       },
+       
+       {
+            "name": "Coca-Cola",
+            "description": "Licensed by Coca-Cola. The standard Coca-Cola.",
+            "price": 3.99,
+            "img": "images/coca-cola-logo.png",
+            "category": "Drinks"
+       },
+        {
+            "name": "Diet Coke",
+            "description": "Licensed by Coca-Cola. A lower-sugar alternative to Coca-Cola.",
+            "price": 2.99,
+            "img": "images/diet-coke-logo.png",
+            "category": "Drinks"
+       },
+       {
+            "name": "Coca-Cola Zero",
+            "description": "Licensed by Coca-Cola. A version of Coca-Cola with no sugar.",
+            "price": 3.99,
+            "img": "images/coca-cola-zero-logo.png",
+            "category": "Drinks"
+       },
+       {
+            "name": "Pepsi",
+            "description": "Licensed by Pepsi.",
+            "price": 3.99,
+            "img": "images/pepsi-logo.png",
+            "category": "Drinks"
+       },
+       {
+            "name": "7-Up",
+            "description": "Licensed by Pepsi. Won't give you extra lives.",
+            "price": 3.99,
+            "img": "images/7-up-logo.png",
+            "category": "Drinks"
+       },
+       {
+            "name": "Sprite",
+            "description": "Licensed by Coca-Cola. Not a video game character model.",
+            "price": 3.99,
+            "img": "images/sprite-logo.png",
+            "category": "Drinks"
+       },
+       {
+            "name": "Dr. Pepper",
+            "description": "Licensed by Dr. Pepper. Not a trustworthy doctor.",
+            "price": 3.99,
+            "img": "images/dr-pepper-logo.png",
+            "category": "Drinks"
+       },
+       {
+            "name": "A&W Root Beer",
+            "description": "Root beer. Non-alcoholic, in case you were worried about any possible bad influence on kids.",
+            "price": 3.99,
+            "img": "images/anw-logo.png",
+            "category": "Drinks"
+       },
+       {
+            "name": "Hamburger",
+            "description": "For some odd reason, it's made with beef, not ham.",
+            "price": 3.99,
+            "img": "images/hamburger.png",
+            "category": "Entree"
+       },
+       {
+            "name": "Fries",
+            "description": "Yep. We sell fries as a separate meal. Sizes include: Small, Medium, and Large.",
+            "price": 0.99,
+            "img": "images/fries.png",
+            "category": "Entree"
+       },
+       {
+            "name": "Banana Split",
+            "description": "Banana split.",
+            "price": 3.99,
+            "img": "images/banana-split.png",
+            "category": "Dessert"
+       }
+    ]
+}
