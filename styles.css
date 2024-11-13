@@ -13,6 +13,15 @@ h1 {
 }
 
 .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 50px;
+}
+
+.category-button {
+  border: none;
+  background: none;
 }
 
 .food-item-container {
