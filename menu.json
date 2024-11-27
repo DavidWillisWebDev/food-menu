@@ -72,6 +72,27 @@
             "category": "Drinks"
        },
        {
+          "name": "Egg",
+          "description": "Comes in all sorts of different types, such as boiled, scrambled, fried, etc.",
+          "price": 3.99,
+          "img": "images/egg.png",
+          "category": "Breakfast"
+       },
+       {
+          "name": "Toast",
+          "description": "For some odd reason, it's made with beef, not ham.",
+          "price": 1.99,
+          "img": "images/toast.png",
+          "category": "Breakfast"
+       },
+       {
+          "name": "French Toast",
+          "description": "For some odd reason, it's made with beef, not ham.",
+          "price": 3.99,
+          "img": "images/french-toast.png",
+          "category": "Breakfast"
+       },
+       {
             "name": "Hamburger",
             "description": "For some odd reason, it's made with beef, not ham.",
             "price": 3.99,

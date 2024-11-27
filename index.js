@@ -8,23 +8,87 @@ fetch("./menu.json")
 function loadMenu(data) {
   data = data["data"];
   var containerHTML = "";
-  container = document.getElementById("food-item-container");
+
+  // Fill in breakfast-container.
+  container = document.getElementById("breakfast-container");
   for (let i = 0; i < data.length; i++) {
-    containerHTML += "<div class='food-item'>";
-    containerHTML += `<img class='image-food' src=${data[i].img} />`;
-    containerHTML += "<div class='food-text'>";
-    containerHTML += "<div class='food-title'>";
-    containerHTML += `<p>${data[i].name}</p>`;
-    containerHTML += `<p>$${data[i].price}</p>`;
-    containerHTML += "</div>";
-    containerHTML += `<p>${data[i].description}</p>`;
-    containerHTML += "</div>";
-    containerHTML += "</div>";
+    if (data[i].category === "Breakfast") {
+      containerHTML += "<div class='food-item'>";
+      containerHTML += `<img class='image-food' src=${data[i].img} />`;
+      containerHTML += "<div class='food-text'>";
+      containerHTML += "<div class='food-title'>";
+      containerHTML += `<p>${data[i].name}</p>`;
+      containerHTML += `<p>$${data[i].price}</p>`;
+      containerHTML += "</div>";
+      containerHTML += `<p>${data[i].description}</p>`;
+      containerHTML += "</div>";
+      containerHTML += "</div>";
+    }
+  }
+  container.innerHTML = containerHTML;
+  
+  // Fill in entree-container.
+  containerHTML = "";
+  container = document.getElementById("entree-container");
+  
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].category === "Entree") {
+      containerHTML += "<div class='food-item'>";
+      containerHTML += `<img class='image-food' src=${data[i].img} />`;
+      containerHTML += "<div class='food-text'>";
+      containerHTML += "<div class='food-title'>";
+      containerHTML += `<p>${data[i].name}</p>`;
+      containerHTML += `<p>$${data[i].price}</p>`;
+      containerHTML += "</div>";
+      containerHTML += `<p>${data[i].description}</p>`;
+      containerHTML += "</div>";
+      containerHTML += "</div>";
+    }
+  }
+  container.innerHTML = containerHTML;
+
+  // Fill in dessert-container.
+  containerHTML = "";
+  container = document.getElementById("dessert-container");
+
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].category === "Dessert") {
+      containerHTML += "<div class='food-item'>";
+      containerHTML += `<img class='image-food' src=${data[i].img} />`;
+      containerHTML += "<div class='food-text'>";
+      containerHTML += "<div class='food-title'>";
+      containerHTML += `<p>${data[i].name}</p>`;
+      containerHTML += `<p>$${data[i].price}</p>`;
+      containerHTML += "</div>";
+      containerHTML += `<p>${data[i].description}</p>`;
+      containerHTML += "</div>";
+      containerHTML += "</div>";
+    }
+  }
+  container.innerHTML = containerHTML;
+
+  // Fill in drinks-container.
+  containerHTML = "";
+  container = document.getElementById("drinks-container");
+
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].category === "Drinks") {
+      containerHTML += "<div class='food-item'>";
+      containerHTML += `<img class='image-food' src=${data[i].img} />`;
+      containerHTML += "<div class='food-text'>";
+      containerHTML += "<div class='food-title'>";
+      containerHTML += `<p>${data[i].name}</p>`;
+      containerHTML += `<p>$${data[i].price}</p>`;
+      containerHTML += "</div>";
+      containerHTML += `<p>${data[i].description}</p>`;
+      containerHTML += "</div>";
+      containerHTML += "</div>";
+    }
   }
   container.innerHTML = containerHTML;
 }
 
-// 
+// Scrolls to a specific section of the menu.
 function showItems(category) {
-  console.log(category);
+  document.getElementById(category).scrollIntoView({behavior: 'smooth'});
 }
