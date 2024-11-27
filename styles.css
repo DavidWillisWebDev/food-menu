@@ -31,7 +31,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   width: 900px;
-  border: 1px dashed orange;
+  border: 5px solid rgb(33, 173, 129);
   /* The plan here is to split this menu into two columns. */
 }
 
@@ -54,12 +54,13 @@ h1 {
   /* This adjusts the description's text. */
   width: 260px;
   font-family: Georgia;
+  font-size: 20px;
 }
 
 .food-title {
   /* This displays the item's name and price. */
   font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;

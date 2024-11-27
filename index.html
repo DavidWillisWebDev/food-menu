@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>this is a menu (no ideas for name yet)</h1>
+    <h1>Placeholder Diner</h1>
+    <!-- Buttons -->
     <div class="button-container">
       <button type="button" onclick="showItems('breakfast-label')" class="category-button">
         <img src="buttons/breakfast-button.png" />
       </button>
       <button type="button" onclick="showItems('entree-label')" class="category-button">
-        <img src="buttons/lunch-button.png" />
+        <img src="buttons/entrees-button.png" />
+      </button>
+      <button type="button" onclick="showItems('sides-label')" class="category-button">
+        <img src="buttons/sides-button.png" />
       </button>
       <button type="button" onclick="showItems('dessert-label')" class="category-button">
         <img src="buttons/dessert-button.png" />
@@ -23,11 +27,14 @@
         <img src="buttons/drinks-button.png" />
       </button>
     </div>
+    <!-- Sections for the food items -->
     <div class="content">
       <h1 id="breakfast-label">Breakfast</h1>
       <div class="food-item-container" id="breakfast-container"></div>
       <h1 id="entree-label">Entrees</h1>
       <div class="food-item-container" id="entree-container"></div>
+      <h1 id="sides-label">Sides</h1>
+      <div class="food-item-container" id="sides-container"></div>
       <h1 id="dessert-label">Dessert</h1>
       <div class="food-item-container" id="dessert-container"></div>
       <h1 id="drinks-label">Drinks</h1>

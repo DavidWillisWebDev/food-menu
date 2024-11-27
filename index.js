@@ -47,6 +47,26 @@ function loadMenu(data) {
   }
   container.innerHTML = containerHTML;
 
+  // Fill in the sides-container.
+  containerHTML = "";
+  container = document.getElementById("sides-container");
+
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].category === "Sides") {
+      containerHTML += "<div class='food-item'>";
+      containerHTML += `<img class='image-food' src=${data[i].img} />`;
+      containerHTML += "<div class='food-text'>";
+      containerHTML += "<div class='food-title'>";
+      containerHTML += `<p>${data[i].name}</p>`;
+      containerHTML += `<p>$${data[i].price}</p>`;
+      containerHTML += "</div>";
+      containerHTML += `<p>${data[i].description}</p>`;
+      containerHTML += "</div>";
+      containerHTML += "</div>";
+    }
+  }
+  container.innerHTML = containerHTML;
+
   // Fill in dessert-container.
   containerHTML = "";
   container = document.getElementById("dessert-container");

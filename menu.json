@@ -1,110 +1,144 @@
 {
     "data": [
        {
-            "name": "Water",
-            "description": "Made with two hydrogen molecules and one oxygen molecule.",
-            "price": 1.75,
-            "img": "images/water.png",
-            "category": "Drinks"
-       },
-       {
-            "name": "Lemonade",
-            "description": "Made with lemons and sugar. Not to be confused with lemon juice.",
-            "price": 3.99,
-            "img": "images/lemonade.png",
-            "category": "Drinks"
-       },
-       
-       {
-            "name": "Coca-Cola",
-            "description": "Licensed by Coca-Cola. The standard Coca-Cola.",
-            "price": 3.99,
-            "img": "images/coca-cola-logo.png",
-            "category": "Drinks"
-       },
-        {
-            "name": "Diet Coke",
-            "description": "Licensed by Coca-Cola. A lower-sugar alternative to Coca-Cola.",
-            "price": 2.99,
-            "img": "images/diet-coke-logo.png",
-            "category": "Drinks"
-       },
-       {
-            "name": "Coca-Cola Zero",
-            "description": "Licensed by Coca-Cola. A version of Coca-Cola with no sugar.",
-            "price": 3.99,
-            "img": "images/coca-cola-zero-logo.png",
-            "category": "Drinks"
-       },
-       {
-            "name": "Pepsi",
-            "description": "Licensed by Pepsi.",
-            "price": 3.99,
-            "img": "images/pepsi-logo.png",
-            "category": "Drinks"
-       },
-       {
-            "name": "7-Up",
-            "description": "Licensed by Pepsi. Won't give you extra lives.",
-            "price": 3.99,
-            "img": "images/7-up-logo.png",
-            "category": "Drinks"
-       },
-       {
-            "name": "Sprite",
-            "description": "Licensed by Coca-Cola. Not a video game character model.",
-            "price": 3.99,
-            "img": "images/sprite-logo.png",
-            "category": "Drinks"
-       },
-       {
-            "name": "Dr. Pepper",
-            "description": "Licensed by Dr. Pepper. Not a trustworthy doctor.",
-            "price": 3.99,
-            "img": "images/dr-pepper-logo.png",
-            "category": "Drinks"
-       },
-       {
-            "name": "A&W Root Beer",
-            "description": "Root beer. Non-alcoholic, in case you were worried about any possible bad influence on kids.",
-            "price": 3.99,
-            "img": "images/anw-logo.png",
-            "category": "Drinks"
-       },
-       {
-          "name": "Egg",
-          "description": "Comes in all sorts of different types, such as boiled, scrambled, fried, etc.",
+          "name": "Eggs",
+          "description": "Comes in all sorts of different types, such as boiled, scrambled, sunny-side up, and fried.",
           "price": 3.99,
-          "img": "images/egg.png",
+          "img": "images/eggs.png",
           "category": "Breakfast"
        },
        {
           "name": "Toast",
-          "description": "For some odd reason, it's made with beef, not ham.",
+          "description": "We cooked bread. What a major achievement.",
           "price": 1.99,
           "img": "images/toast.png",
           "category": "Breakfast"
        },
        {
+          "name": "Pancakes",
+          "description": "Pancakes. Comes in all different types, such as blueberry, strawberry, chocolate chip. There's also syrup.",
+          "price": 1.99,
+          "img": "images/pancakes.png",
+          "category": "Breakfast"
+       },
+       {
+          "name": "Waffles",
+          "description": "Waffles. Comes in all different types, such as blueberry, strawberry, chocolate chip. There's also syrup.",
+          "price": 1.99,
+          "img": "images/waffles.png",
+          "category": "Breakfast"
+       },
+       {
           "name": "French Toast",
-          "description": "For some odd reason, it's made with beef, not ham.",
+          "description": "Another type of toast. This time, it has an egg wash coating. Also has eggs and syrup.",
           "price": 3.99,
           "img": "images/french-toast.png",
           "category": "Breakfast"
        },
        {
             "name": "Hamburger",
-            "description": "For some odd reason, it's made with beef, not ham.",
+            "description": "For some odd reason, it's made with beef, not ham. It's also not labeled as a sandwich, either.",
             "price": 3.99,
             "img": "images/hamburger.png",
             "category": "Entree"
        },
        {
+          "name": "Sandwich",
+          "description": "All you need are two slices of bread. After that, just pick whatever item, basically.",
+          "price": 3.99,
+          "img": "images/sandwich.png",
+          "category": "Entree"
+     },
+       {
+          "name": "Steak",
+          "description": "Steak.",
+          "price": 3.99,
+          "img": "images/steak.png",
+          "category": "Entree"
+       },
+       {
+          "name": "Pork Chops",
+          "description": "Pork chops.",
+          "price": 3.99,
+          "img": "images/pork-chop.png",
+          "category": "Entree"
+       },
+       {
+          "name": "Brisket",
+          "description": "Brisket.",
+          "price": 3.99,
+          "img": "images/brisket.png",
+          "category": "Entree"
+       },
+       {
+          "name": "Chicken",
+          "description": "Chicken. Don't worry about it flying, though.",
+          "price": 3.99,
+          "img": "images/chicken.png",
+          "category": "Entree"
+       },
+       {
             "name": "Fries",
-            "description": "Yep. We sell fries as a separate meal. Sizes include: Small, Medium, and Large.",
+            "description": "One of many types of potato. Also known as chips in some places. Sizes include: Small, Medium, and Large.",
             "price": 0.99,
             "img": "images/fries.png",
-            "category": "Entree"
+            "category": "Sides"
+       },
+       {
+          "name": "Corn",
+          "description": "Corn.",
+          "price": 0.99,
+          "img": "images/corn.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Bacon",
+          "description": "It's bacon.",
+          "price": 0.99,
+          "img": "images/bacon.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Sausage",
+          "description": "An alternative to bacon.",
+          "price": 0.99,
+          "img": "images/sausage.png",
+          "category": "Sides"
+       },
+     {
+          "name": "Green Beans",
+          "description": "Green Beans.",
+          "price": 0.99,
+          "img": "images/green-beans.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Hash Browns",
+          "description": "Another type of potato. Comes in all sorts of different types.",
+          "price": 0.99,
+          "img": "images/hash-browns.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Mashed Potatoes",
+          "description": "Yet another type of potato. Also has gravy.",
+          "price": 0.99,
+          "img": "images/mashed-potatoes.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Okra",
+          "description": "Okra.",
+          "price": 0.99,
+          "img": "images/okra.png",
+          "category": "Sides"
+       },
+       {
+          "name": "Salad",
+          "description": "Just throw in any vegetable combination you can think of.",
+          "price": 0.99,
+          "img": "images/salad.png",
+          "category": "Sides"
        },
        {
             "name": "Banana Split",
@@ -112,6 +146,76 @@
             "price": 3.99,
             "img": "images/banana-split.png",
             "category": "Dessert"
-       }
+       },
+       {
+          "name": "Chocolate Sundae",
+          "description": "Chocolate sundae.",
+          "price": 3.99,
+          "img": "images/chocolate-sundae.png",
+          "category": "Dessert"
+       },
+       {
+          "name": "Vanilla Milkshake",
+          "description": "Milkshake.",
+          "price": 3.99,
+          "img": "images/vanilla-milkshake.png",
+          "category": "Dessert"
+       },
+       {
+          "name": "Chocolate Milkshake",
+          "description": "Milkshake.",
+          "price": 3.99,
+          "img": "images/chocolate-milkshake.png",
+          "category": "Dessert"
+       },
+       {
+          "name": "Strawberry Milkshake",
+          "description": "Milkshake.",
+          "price": 3.99,
+          "img": "images/strawberry-milkshake.png",
+          "category": "Dessert"
+       },
+       {
+          "name": "Water",
+          "description": "Made with two hydrogen molecules and one oxygen molecule.",
+          "price": 1.75,
+          "img": "images/water.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Lemonade",
+          "description": "Made with lemons and sugar. Not to be confused with lemon juice.",
+          "price": 3.99,
+          "img": "images/lemonade.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Soda",
+          "description": "Coca-Cola, Diet Coke, Coca-Cola Zero, Pepsi, 7-Up, Sprite, Dr. Pepper, A&W Root Beer.",
+          "price": 3.99,
+          "img": "images/coca-cola-logo.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Coffee",
+          "description": "Black coffee, espresso, cappuccino.",
+          "price": 3.99,
+          "img": "images/coffee.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Sweet Tea",
+          "description": "Sweet tea.",
+          "price": 3.99,
+          "img": "images/sweet-tea.png",
+          "category": "Drinks"
+     },
+     {
+          "name": "Green Tea",
+          "description": "Green tea.",
+          "price": 3.99,
+          "img": "images/green-tea.png",
+          "category": "Drinks"
+     }
     ]
 }
